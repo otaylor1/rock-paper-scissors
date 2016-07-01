@@ -15,7 +15,7 @@ namespace RockPaperScissors
 
         public void SaveResult(int myMove, int otherMove)
         {
-            
+           
             throw new NotImplementedException();
         }
     }
