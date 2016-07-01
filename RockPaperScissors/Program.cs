@@ -12,9 +12,9 @@ namespace RockPaperScissors
         {
             // TODO:
             // Add AIs by filling in lines like the ones below
-            //{ "Random 1", new RandomAI() },
-            //{ "Random 2", new RandomAI() },
-            //{ "Other", new OtherAI() },
+            { "RanDoe", new RandomAI() },
+            { "Sir CutsAlot", new StubbornAI() },
+            //{ "Squirrel", new ShortAttentionSpanAI() },
             //{ "YetAnother", new YetAnotherAI() },
         };
 
