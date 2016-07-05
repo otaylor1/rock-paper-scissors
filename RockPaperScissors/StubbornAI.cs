@@ -9,11 +9,14 @@ namespace RockPaperScissors
     class StubbornAI : IPlayer
 
     {
-        //Field
-
         //Properties
-        int FavoriteMove = 2;
+        public int FavoriteMove;
 
+        //constructor
+        public StubbornAI()
+        {
+            FavoriteMove = 2;
+        }           
         
         //Method
         public int NextMove()
