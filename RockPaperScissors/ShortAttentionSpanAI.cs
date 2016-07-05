@@ -16,9 +16,23 @@ namespace RockPaperScissors
         //Methods
         public int NextMove()
         {
-         
-            if()
-                
+
+            if (PlayersMove == 0)
+            {
+                return 1;
+            }
+
+            if (PlayersMove == 1)
+            {
+                return 2;
+            }
+
+            if (PlayersMove == 2)
+            {
+                return 0;
+            }
+
+
             throw new NotImplementedException();
         }
 
