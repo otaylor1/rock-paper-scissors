@@ -15,7 +15,7 @@ namespace RockPaperScissors
             { "RanDoe", new RandomAI() },
             { "Sir CutsAlot", new StubbornAI() },
             { "Squirrel", new ShortAttentionSpanAI() },
-            //{ "YetAnother", new YetAnotherAI() },
+            
         };
 
         static void Main(string[] args)
